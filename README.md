@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Nilesh Kumar</h1>
 <h3 align="center">I am a Civil Engineering student. And also a inspired learner of web development.</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=nileshkumaryadav1&label=Profile%20views&color=0e75b6&style=flat" alt="nileshkumaryadav1" /> </p>
-
 - 👨‍💻 All of my projects are visible at [https://nileshprojects.vercel.app](https://nileshprojects.vercel.app)
 
 - 📫 To reach me 👉 Send me an e-mail
