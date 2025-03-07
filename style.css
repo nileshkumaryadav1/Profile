@@ -1,0 +1,909 @@
+/* ....... */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+
+/*....................... navigation style .................*/
+
+.navigationbar {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #02254b;
+  margin-top: 0px;
+  box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;
+}
+
+/* .navigationbar:hover{ 
+    background-color: #085788;
+} */
+
+.navfullnameancor {
+  color: white;
+  text-decoration: none;
+}
+.navfullnameancor:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navlogoancor {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.navlogoancor:hover {
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px black;
+}
+
+.navlogopic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+/* ...................content body/area style .............*/
+
+.contentarea {
+  width: 100%;
+  height: 500px;
+  margin: 15px;
+}
+
+/*................ banner style.................... */
+
+.banner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.bannerprofilepic {
+  display: flex;
+  justify-content: center;
+}
+
+.bannerpic {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 10px;
+}
+/* .bannerpic:hover{
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px black;
+} */
+
+.bannerprofiledetail {
+  width: 50vw;
+  padding: 15px;
+  margin-top: 0.55rem;
+}
+.nilesh {
+  font-size: 48px;
+  font-family: "Times New Roman", Times, serif;
+  color: #02254b;
+}
+.kumaryadav {
+  font-size: 38px;
+  font-family: "Times New Roman", Times, serif;
+  color: #02254b;
+}
+
+@keyframes colorchange {
+  0% {
+    color: green;
+  }
+  30% {
+    color: rgb(81, 135, 157);
+  }
+  50% {
+    color: orange;
+  }
+  80% {
+    color: red;
+  }
+  100% {
+    color: rgb(59, 149, 59);
+  }
+}
+
+.animate {
+  color: red;
+  animation: colorchange 4s linear infinite;
+}
+
+.bannerpara {
+  font-family: poppins;
+}
+
+.btech {
+  font-size: 17px;
+  font-family: poppins;
+}
+
+.ce {
+  font-size: 17px;
+}
+
+.cep {
+  text-align: justify;
+  line-height: 18px;
+  border-top: 0.25px solid rgb(191, 191, 255);
+  padding-top: 5px;
+  margin-top: 2px;
+}
+
+.bannerbtn {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #02254b;
+  color: white;
+  padding: 7px 15px;
+  border-radius: 8px;
+  margin-top: 0.45rem;
+}
+.bannerbtn:hover {
+  background-color: #011327;
+  cursor: pointer;
+  box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 10px;
+}
+
+/*....... projects style....... */
+
+.projecttitle {
+  font-size: 32px;
+  text-align: center;
+  padding: 20px 10px 0px 10px;
+}
+
+.prjct {
+  height: auto;
+  width: 55%;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px 1px rgb(0 0 0 / 0.8);
+  margin-left: 22.5%;
+}
+.prjct:hover {
+  box-shadow: 5px 5px 20px 5px rgb(0 0 0 / 0.8);
+  cursor: pointer;
+}
+
+.projectimg {
+  height: 90%;
+  width: 100%;
+}
+.projectbtn {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #02254b;
+  color: white;
+  padding: 7px 15px;
+  border-radius: 8px;
+  margin-left: 20%;
+  margin-top: 0.45rem;
+}
+.projectbtn:hover {
+  background-color: #011327;
+  cursor: pointer;
+  box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 10px;
+}
+
+/* ...............education style........ */
+/* ...........kec........... */
+.educationtitle {
+  text-align: center;
+  padding: 20px 10px 0px 10px;
+  font-size: 32px;
+  /* box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px; */
+}
+.education {
+  height: 490px;
+  width: 100%;
+}
+
+.keck {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.keckdiv {
+  height: 200px;
+  width: 55%;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 15px;
+  margin: 8px;
+  box-shadow: 5px 5px 20px 1px rgb(0 0 0 / 0.8);
+}
+.keckdiv:hover {
+  box-shadow: 5px 5px 20px 5px rgb(0 0 0 / 0.8);
+}
+.kecklogo {
+  height: 100px;
+  width: 100px;
+  margin: 30px 10px 10px -10px;
+}
+
+.ability {
+  padding: 10px;
+  margin-left: 10px;
+}
+.institutename {
+  font-size: 24px;
+  margin-top: 5px;
+}
+.institutesite {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #02254b;
+  color: white;
+  padding: 7px 15px;
+  border-radius: 8px;
+  margin-top: 0.45rem;
+}
+.institutesite:hover {
+  background-color: #011327;
+  cursor: pointer;
+  box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 10px;
+}
+
+/*....... dis ......*/
+.disbgp {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.disdiv {
+  height: 200px;
+  width: 55%;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 15px;
+  margin: 8px;
+  box-shadow: 5px 5px 20px 1px rgb(0 0 0 / 0.8);
+}
+.disdiv:hover {
+  box-shadow: 5px 5px 20px 5px rgb(0 0 0 / 0.8);
+}
+.dislogo {
+  height: 100px;
+  width: 100px;
+  margin: 30px 10px 10px 10px;
+}
+
+.abilitydis {
+  padding: 0px 10px 10px 10px;
+  margin-left: 10px;
+}
+
+/*......................... foot style ..................*/
+.foot {
+  height: 168px;
+  width: 100%;
+  background-color: #02254b;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  padding-top: 30px;
+  box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;
+}
+
+.nameaddress {
+  height: 100px;
+  width: 250px;
+  padding: 30px 0px 0px;
+  color: white;
+}
+.footname {
+  font-size: 24px;
+}
+.footaddress {
+  font-size: 16px;
+}
+
+.sociallink {
+  height: 100px;
+  width: 200px;
+  padding: 30px 0px 0px;
+  color: white;
+}
+
+.contactme {
+  height: 100px;
+  width: 250px;
+  padding: 30px 0px 0px;
+  color: white;
+}
+
+.contactme li {
+  list-style-type: none;
+}
+
+.sociallink li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.a:hover {
+  text-decoration: none;
+}
+
+/* ......foot style end....... */
+
+/* ..................................responsive code.............................. */
+
+/* ...........Mobile version ................ */
+
+@media screen and (max-width: 400px) {
+  /* navigation style */
+
+  .navigationbar {
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #02254b;
+    margin-top: 0px;
+    box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;
+  }
+
+  .navfullnameancor {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .navfullnameancor:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .navlogoancor {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+
+  .navlogoancor:hover {
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+  }
+
+  .navlogopic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+
+  /* ...................content body/area style .............*/
+
+  .contentarea {
+    width: 100%;
+    height: 500px;
+    margin: 15px;
+  }
+
+  /*................ banner style.................... */
+
+  .banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .bannerprofilepic {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bannerpic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .bannerprofiledetail {
+    width: 94vw;
+    padding: 15px;
+    margin-top: 0.55rem;
+  }
+  .nilesh {
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+    color: #02254b;
+    text-align: center;
+  }
+
+  .kumaryadav {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  @keyframes colorchange {
+    0% {
+      color: green;
+    }
+    30% {
+      color: rgb(81, 135, 157);
+    }
+    50% {
+      color: orange;
+    }
+    80% {
+      color: red;
+    }
+    100% {
+      color: rgb(59, 149, 59);
+    }
+  }
+
+  .animate {
+    color: red;
+    animation: colorchange 4s linear infinite;
+  }
+
+  .bannerpara {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .ce {
+    font-family: sans-serif;
+    font-size: 17px;
+  }
+
+  .cep {
+    text-align: justify;
+  }
+
+  .bannerbtn {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #02254b;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 8px;
+    margin-top: 0.45rem;
+    margin-left: 30%;
+  }
+  .bannerbtn:hover {
+    background-color: #011327;
+    cursor: pointer;
+    box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 10px;
+  }
+
+  /* .................projects style ......*/
+
+  .projecttitle {
+    font-size: 32px;
+    text-align: center;
+    padding: 20px 10px 0px 10px;
+  }
+
+  .prjct {
+    height: auto;
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px 1px rgb(0 0 0 / 0.8);
+    margin-left: 8%;
+  }
+  .prjct:hover {
+    box-shadow: 5px 5px 20px 5px rgb(0 0 0 / 0.8);
+    cursor: pointer;
+  }
+
+  .projectimg {
+    height: 90%;
+    width: 100%;
+  }
+  .projectbtn {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #02254b;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-top: 0.45rem;
+  }
+  .projectbtn:hover {
+    background-color: #011327;
+    cursor: pointer;
+    box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 10px;
+  }
+
+  /* .......education style......... */
+  /* ....kec ......*/
+  .educationtitle {
+    text-align: center;
+    padding: 20px 10px 0px 10px;
+    font-size: 32px;
+  }
+  .education {
+    height: max-content;
+    width: 100%;
+  }
+
+  .keck {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .keckdiv {
+    height: max-content;
+    width: 80%;
+    display: block;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin: 7px;
+    padding: 15px;
+    box-shadow: 5px 5px 20px 1px rgb(0 0 0 / 0.8);
+  }
+  .keckdiv:hover {
+    box-shadow: 5px 5px 20px 5px rgb(0 0 0 / 0.8);
+  }
+  .kecklogo {
+    height: 100px;
+    width: 100px;
+    margin: 10px 10px 10px 1px;
+  }
+
+  .ability {
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .institutename {
+    font-size: 24px;
+    margin-top: 5px;
+  }
+  .institutesite {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #02254b;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 8px;
+    margin-top: 0.45rem;
+  }
+  .institutesite:hover {
+    background-color: #011327;
+    cursor: pointer;
+    box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 10px;
+  }
+
+  /*.... dis........ */
+  .disbgp {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .disdiv {
+    height: max-content;
+    width: 80%;
+    display: block;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin: 7px;
+    padding: 15px;
+    box-shadow: 5px 5px 20px 1px rgb(0 0 0 / 0.8);
+  }
+  .disdiv:hover {
+    box-shadow: 5px 5px 20px 5px rgb(0 0 0 / 0.8);
+  }
+  .dislogo {
+    height: 100px;
+    width: 100px;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .abilitydis {
+    padding: 0px 10px 10px 10px;
+    margin-left: 10px;
+  }
+
+  /*........................ foot style............ */
+  .foot {
+    height: max-content;
+    width: 100vw;
+    background-color: #02254b;
+    display: block;
+    justify-content: space-evenly;
+    padding: 10px;
+    padding-top: 30px;
+    box-shadow: rgba(72, 135, 202, 0.8) 0 0 50px 20px;
+  }
+
+  .nameaddress {
+    height: max-content;
+    width: 100vw;
+    padding: 1px 0px 0px 10px;
+    color: white;
+  }
+  .footname {
+    font-size: 24px;
+  }
+  .footaddress {
+    font-size: 20px;
+  }
+
+  .sociallink {
+    height: max-content;
+    width: 100vw;
+    padding: 10px 0px 0px 10px;
+    color: white;
+    font-size: 17px;
+  }
+
+  .contactme {
+    height: max-content;
+    width: 100vw;
+    padding: 10px 0px 10px 10px;
+    color: white;
+    font-size: 17px;
+  }
+
+  /* ......foot style end....... */
+}
+
+/* ...........Mobile version style end................ */
+
+/* ...............Tab and mobile style................................ */
+
+@media screen and (min-width: 400px) and (max-width: 570px) {
+  /* ....banner.... */
+  .banner {
+    display: block;
+  }
+
+  .bannerprofiledetail {
+    width: 94vw;
+    padding: 15px;
+    margin-top: 0.55rem;
+  }
+  .nilesh {
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+    color: #02254b;
+    text-align: center;
+  }
+
+  .kumaryadav {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  @keyframes colorchange {
+    0% {
+      color: green;
+    }
+    30% {
+      color: rgb(81, 135, 157);
+    }
+    50% {
+      color: orange;
+    }
+    80% {
+      color: red;
+    }
+    100% {
+      color: rgb(59, 149, 59);
+    }
+  }
+
+  .animate {
+    color: red;
+    animation: colorchange 4s linear infinite;
+  }
+
+  .bannerpara {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .ce {
+    font-family: sans-serif;
+    font-size: 17px;
+  }
+
+  .cep {
+    text-align: justify;
+  }
+
+  .bannerbtn {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #02254b;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 8px;
+    margin-top: 0.45rem;
+    margin-left: 30%;
+  }
+
+  /* ....projects.... */
+
+  .prjct {
+    width: 75vw;
+    padding: 20px;
+    margin: 20px 20px 30px 60px;
+  }
+
+  /* ....education.... */
+
+  .education {
+    height: 850px;
+    width: 100%;
+  }
+
+  .keck {
+    height: 370px;
+    width: 100%;
+  }
+  .keckdiv {
+    height: 370px;
+    width: 80%;
+    display: inline;
+    padding: 1px 10px 10px 25px;
+  }
+
+  .disbgp {
+    height: 400px;
+    width: 100%;
+  }
+
+  .disdiv {
+    height: 380px;
+    width: 80%;
+    display: inline;
+    padding: 1px 10px 10px 25px;
+  }
+
+  /* ....foot... */
+
+  .foot {
+    display: block;
+    height: max-content;
+    padding-left: 50px;
+  }
+}
+
+/* .................laptop............. */
+
+@media screen and (min-width: 570px) and (max-width: 640px) {
+  /* ....banner.... */
+
+  .bannerprofiledetail {
+    width: 70vw;
+  }
+
+  /* ....projects.... */
+
+  .prjct {
+    width: 75vw;
+    padding: 20px;
+    margin: 20px 20px 30px 60px;
+  }
+
+  /* ....education.... */
+  .keckdiv {
+    width: 95%;
+  }
+
+  .disdiv {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 640px) and (max-width: 780px) {
+  /* ....banner.... */
+
+  .bannerprofiledetail {
+    width: 70vw;
+  }
+
+  /* ....projects.... */
+
+  .prjct {
+    width: 75vw;
+    padding: 20px;
+    margin: 20px 20px 30px 60px;
+  }
+
+  /* ....education.... */
+
+  .keckdiv {
+    width: 90%;
+  }
+
+  .disdiv {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1025px) {
+  /* ....banner.... */
+
+  .bannerprofiledetail {
+    width: 60vw;
+  }
+  /* ....projects.... */
+
+  .prjct {
+    width: 75vw;
+    padding: 20px;
+    margin: 20px 20px 30px 120px;
+  }
+
+  /* ....education.... */
+
+  .keckdiv {
+    width: 80%;
+  }
+
+  .disdiv {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1026px) and (max-width: 1240px) {
+  /* ....banner.... */
+
+  .bannerprofiledetail {
+    width: 60vw;
+  }
+  /* ....projects.... */
+
+  .prjct {
+    width: 75vw;
+    padding: 20px;
+    margin: 20px 20px 30px 60px;
+  }
+
+  /* ....education.... */
+
+  .keckdiv {
+    width: 80%;
+  }
+
+  .disdiv {
+    width: 80%;
+  }
+}
+
+/* .... Be Happy.... */
